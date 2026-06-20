@@ -74,22 +74,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Install Ollama
+## Environment Variables
 
-Download and install Ollama from:
-
-https://ollama.com
-
-Pull a model:
-
-```bash
-ollama pull llama3
+Create a .env file in the project root:
 ```
-
-Verify installation:
-
-```bash
-ollama run llama3
+MODEL_NAME= your ollama model here
+OLLAMA_API_KEY=your_api_key_here
 ```
 
 ## Run the Application
