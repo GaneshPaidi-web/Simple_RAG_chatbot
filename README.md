@@ -76,19 +76,13 @@ pip install -r requirements.txt
 
 ## Environment Variables
 
-Create a .env file in the project root:
+Create a config.py file in the project root:
 ```
 MODEL_NAME= your ollama model here
 OLLAMA_API_KEY=your_api_key_here
 ```
 
 ## Run the Application
-
-Start Ollama:
-
-```bash
-ollama serve
-```
 
 Run Streamlit:
 
